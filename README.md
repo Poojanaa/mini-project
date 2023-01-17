@@ -466,6 +466,9 @@ cv2.destroyAllWindows()<br>
 <br>
 <br>
 
+https://data-flair.training/blogs/create-emoji-with-deep-learning/<br>
+
+
 
 
 
