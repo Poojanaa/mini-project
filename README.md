@@ -479,6 +479,8 @@ from keras.layers import MaxPooling2D
 from keras.preprocessing.image import ImageDataGenerator
 <br>
 <br>
+https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/<br>
+<br>
 
 
 
