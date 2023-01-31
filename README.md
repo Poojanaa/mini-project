@@ -469,7 +469,16 @@ cv2.destroyAllWindows()<br>
 https://data-flair.training/blogs/create-emoji-with-deep-learning/<br>
 https://github.com/infoaryan/Air-Canvas-with-ML<br>
 
-
+import numpy as np
+import cv2
+from tensorflow.keras.models import Sequential 
+from keras.layers import Dense, Dropout, Flatten
+from keras.layers import Conv2D
+from keras.optimizers import Adam
+from keras.layers import MaxPooling2D
+from keras.preprocessing.image import ImageDataGenerator
+<br>
+<br>
 
 
 
