@@ -484,7 +484,22 @@ https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/<
 
 
 
-
+train_dir = '/content/drive/MyDrive/facial/train'
+val_dir = '/content/drive/MyDrive/facial/test'
+train_datagen = ImageDataGenerator(rescale=1./255)
+val_datagen = ImageDataGenerator(rescale=1./255)
+train_generator = train_datagen.flow_from_directory(
+        train_dir,
+        target_size=(48,48),
+        batch_size=64,
+        color_mode="grayscale",
+        class_mode='categorical')
+validation_generator = val_datagen.flow_from_directory(
+        val_dir,
+        target_size=(48,48),
+        batch_size=64,
+        color_mode="grayscale",
+        class_mode='categorical')<br>
 
 
 
