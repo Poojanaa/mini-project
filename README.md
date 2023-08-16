@@ -25,3 +25,5 @@ Step-4: Generate the decision tree node, which contains the best attribute.
 Step-5: Recursively make new decision trees using the subsets of the dataset created in step -3. Continue this process until a stage is reached where you cannot further classify the nodes and called the final node as a leaf nodeClassification and Regression Tree algorithm.
 
 https://www.youtube.com/watch?v=j5WJDimjgLg<br>
+
+https://aws.amazon.com/what-is/logistic-regression/#:~:text=Logistic%20regression%20is%20a%20data,outcomes%2C%20like%20yes%20or%20no.<br>
